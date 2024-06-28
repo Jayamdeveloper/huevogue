@@ -1,0 +1,2 @@
+[22-Jun-2024 05:33:58 UTC] PHP Fatal error:  App\Models\Admin cannot implement Illuminate\Foundation\Auth\User - it is not an interface in /home1/webdevelop/public_html/huevouge/admin/app/Models/Admin.php on line 10
+[22-Jun-2024 05:34:47 UTC] PHP Fatal error:  Trait "App\Models\AuthenticatableTrait" not found in /home1/webdevelop/public_html/huevouge/admin/app/Models/Admin.php on line 10

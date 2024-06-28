@@ -1,0 +1,173 @@
+body {
+  overflow-x: hidden;
+}
+
+/***header***/
+.icons-actions i {
+  border-radius: 100px;
+  padding: 7px 9px;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.mr--30 {
+  margin-right: 30px;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+/* .light-mode-img{width:100%;} */
+
+/**about us csss***/
+.about-title {
+  position: relative;
+  max-width: 400px;
+}
+
+.about-title::before {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 34%;
+  width: 28%;
+  height: 2px;
+  background-color: red;
+}
+
+.aboutbg {
+  background: #f3f3f399;
+}
+
+.aboutusimg {
+  height: 385px;
+  border: 1px solid #e3e3e3;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+  width: 100%;
+}
+
+/**about us csss end***/
+
+/**products csss***/
+.servicesbg {
+  background: #efefef;
+}
+
+.product-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+.product-title a {
+  font-size: 19px;
+}
+
+.ml--30 {
+  margin-left: -30px;
+}
+
+.ml-30 {
+  margin-left: 40px;
+}
+
+/**products csss end***/
+/***contact us css***/
+
+.contact-area .quick-contact {
+  background-color: #4a5059;
+  padding: 50px 30px;
+}
+
+.contact-area .quick-contact h3 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: -4px;
+}
+
+.contact-area .quick-contact ul li {
+  font-size: 18px;
+  position: relative;
+  color: #ffffff;
+  padding-left: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.contact-area .quick-contact ul li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-area .quick-contact ul li i {
+  position: absolute;
+  left: 0;
+  font-size: 25px;
+}
+
+.mt--7 {
+  margin-top: 7px;
+}
+
+.mt--2 {
+  margin-top: 3px;
+}
+
+.mb--20 {
+  margin-bottom: 20px;
+}
+
+.footerlink li {
+  list-style-type: none;
+}
+
+.footerlink li a {
+  margin-top: 17px;
+  margin-right: 4px;
+}
+
+.txt-black {
+  color: black;
+}
+
+.contact-area .quick-contact ul li span {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.contact-area .quick-contact ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contact-area .quick-contact ul li a {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+i.fa.fa-user-circle-o.user-i-con {
+    font-size: 22px;
+}
+a.dropdown-item i {
+    color: #7e7e7e !important;
+}
+a.reg-txt {
+    color: #b88539 !important;
+    font-weight: 700 !important;
+}
+a.reg-txt:hover {
+    color: #000 !important;
+}
+.midLinks {
+    margin-top: 27px;
+}
+/**contact us css end**/
